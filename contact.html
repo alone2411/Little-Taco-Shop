@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact The Little Taco Shop in Kansas City. Send us a message or find our location.">
+  <title>Contact | The Little Taco Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav-bar" aria-label="Primary navigation">
+        <a class="logo" href="index.html" aria-label="The Little Taco Shop — Home">
+          <span class="logo-icon" aria-hidden="true">🌮</span>
+          <span class="logo-text">Little Taco Shop</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="index.html#story">Our Story</a>
+          <a href="index.html#menu">Menu</a>
+          <a href="hours.html">Hours</a>
+          <a href="contact.html" class="current">Contact</a>
+          <a class="btn btn-sm" href="#contact-info">Visit Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner" aria-labelledby="contact-title">
+      <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=1200&q=80" alt="Taco spread" class="banner-bg" width="1920" height="800">
+      <div class="wrap banner-content">
+        <span class="eyebrow">Contact</span>
+        <h1 id="contact-title">Let's talk tacos.</h1>
+        <p>We'd love to hear from you.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Send a message or find the shop">
+      <div class="wrap">
+        <div class="contact-grid">
+          <div class="form-card">
+            <span class="eyebrow">Contact Form</span>
+            <h2>Send us a message.</h2>
+            <p class="form-intro">Questions, catering ideas, or just want to share some taco love?</p>
+
+            <form class="contact-form" action="#" method="get" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+              </div>
+              <div>
+                <button class="btn" type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+          <aside id="contact-info" class="contact-aside">
+            <span class="eyebrow">Find Us</span>
+            <h2>Come by for a taco.</h2>
+            <p>We're always happy to welcome you in.</p>
+
+            <div class="contact-details">
+              <div>
+                <span class="detail-label">Address</span>
+                <span>555 Taco Temptation Lane, Suite T<br>Kansas City, MO 55555-5555</span>
+              </div>
+              <div>
+                <span class="detail-label">Phone</span>
+                <a href="tel:+15555555555">(555) 555-5555</a>
+              </div>
+              <div>
+                <span class="detail-label">Hours</span>
+                <a href="hours.html">Sunday – Thursday, 11 AM – 9 PM<br>Friday – Saturday, 11 AM – 11 PM</a>
+              </div>
+            </div>
+
+            <figure class="contact-photo">
+              <img src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?auto=format&fit=crop&w=800&q=80" alt="Fresh artisan taco close-up" loading="lazy" width="600" height="340">
+            </figure>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="logo" href="index.html">
+            <span class="logo-icon" aria-hidden="true">🌮</span>
+            <span class="logo-text">Little Taco Shop</span>
+          </a>
+          <p class="footer-desc">Fresh tacos, good company and a little Kansas City flavor.</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-col">
+            <h4>Navigate</h4>
+            <a href="index.html#story">Our Story</a>
+            <a href="index.html#menu">Menu</a>
+            <a href="hours.html">Hours</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Visit</h4>
+            <span>Kansas City, Missouri</span>
+            <a href="tel:+15555555555">(555) 555-5555</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span class="footer-year">2026</span> The Little Taco Shop</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
